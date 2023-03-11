@@ -1,0 +1,64 @@
+/*colores*/
+:root{
+  --fondo:#AEB6BF ;
+  --negro:#000000;
+  --primario:#03A9F4;
+  --secundario:#00BCD4;
+  --blanco:#FFFFFF;
+
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Michroma', sans-serif;
+}
+body{
+  font-size: 16px;
+}
+section{
+  text-align: center;
+
+}
+/*header*/
+header {
+text-align: center;
+}
+/*nav*/
+.contenedor{
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.nav-back{
+  background-color: var(--primario);
+
+}
+.navp{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+@media(min-width:768px){
+  .navp{
+    flex-direction:row;
+  }
+}
+.navp a{
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding:1rem;
+  
+}
+.navp a:hover{
+  background-color: var(--secundario);
+  color: var(--negro);
+ 
+}
+/*main*/
+/*footer*/
+footer{
+  text-align: center;
+}
+/*diseño responsive media queris*/
